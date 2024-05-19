@@ -1,0 +1,38 @@
+/* General styles for the phone comparison item */
+.phone-comparison-item {
+    background-color: #fff; /* White background for clarity */
+    border: 1px solid #ddd; /* Subtle border for definition */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 20px; /* Ample padding for space inside the container */
+    margin: 10px 0; /* Margin for spacing between items */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.10); /* Soft shadow for depth */
+    max-width: 350px; /* Limiting max width for better readability */
+}
+
+/* Styling the heading for the device */
+.phone-comparison-item h2 {
+    color: #333; /* Dark grey color for contrast */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styling for the image */
+.phone-comparison-item img {
+    width: 100%; /* Full width to utilize the container space */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for the image */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Paragraph styling */
+.phone-comparison-item p {
+    color: #666; /* Lighter grey for the text, easier on the eyes */
+    font-size: 16px; /* Sufficient size for readability */
+    line-height: 1.5; /* Good line height for readability */
+    margin-bottom: 5px; /* Space between paragraphs */
+}
+
+/* Strong tag within paragraphs for emphasis */
+.phone-comparison-item strong {
+    color: #333; /* Darker color for emphasis */
+    font-weight: bold; /* Bold font weight for importance */
+}

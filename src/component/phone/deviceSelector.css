@@ -1,0 +1,79 @@
+/* General styles for the device selector container */
+.device-selector-container {
+    font-family: Arial, sans-serif; /* Ensures a clean, modern font is used */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Heading styles */
+.phone-heading {
+    color: #343a40; /* Dark gray that is easy on the eyes */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.toggle-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 12px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6; /* Light grey border */
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+li:hover {
+    color: white;
+    background-color: #007bff; /* Hover effect for list items */
+    cursor: pointer;
+}
+
+/* Active selection styling */
+li.selected {
+    color: white;
+    background-color: #28a745; /* Green background for selected items */
+}
+
+/* Comparison container styling */
+.comparison-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-around; /* Distributes space around items */
+    align-items: start; /* Aligns items at the start of the flex container */
+}
+.comparison-heading {
+    color: #495057; /* Dark gray for the subheading */
+    text-align: center;
+    margin-bottom: 15px;
+}
